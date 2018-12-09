@@ -1,0 +1,46 @@
+ body{
+ 	background: gray;
+ }
+ .page{
+ 	width: 1500px;
+ 	margin: auto;
+ }
+.menu{
+	width: 1500px;
+	height: 50px;
+	border: 3px solid black;
+	background: red;
+	border-radius: 10px;
+}
+.menu ul li{
+	width: 150px;
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;
+	text-align: center;
+	list-style: none;
+	float: left;
+	position: relative;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover{
+	color: black;
+}
+.header{
+	width: 1500px;
+	height: 950px;
+	border: 2px solid black;
+	margin-top: 1px;
+	border-radius: 8px;
+}
+.header img{
+	width: 1500px;
+	height: 950px;
+}
